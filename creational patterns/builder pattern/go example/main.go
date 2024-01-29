@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	testCarBuilder := newCarBuilder()
 
 	carDirector := newDirector(*testCarBuilder)
